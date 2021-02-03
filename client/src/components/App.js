@@ -6,7 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header dark={true}>Leadsgram</Header>
+        <Header dark={true} className="Header">
+          Leadsgram
+        </Header>
         <Footer />
       </div>
     );
